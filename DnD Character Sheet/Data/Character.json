@@ -1,0 +1,119 @@
+{
+  "Character": {
+    "Name": "Arannis Liadon",
+    "Class": "Rogue",
+    "Level": 5,
+    "Race": "Half-Elf",
+    "Background": "Criminal",
+    "Alignment": "Chaotic Neutral",
+    "ExperiencePoints": 6500
+  },
+  "AbilityScores": {
+    "Strength": 10,
+    "Dexterity": 18,
+    "Constitution": 14,
+    "Intelligence": 12,
+    "Wisdom": 13,
+    "Charisma": 16
+  },
+  "ProficiencyBonus": 3,
+  "SavingThrows": {
+    "Strength": 0,
+    "Dexterity": 6,
+    "Constitution": 2,
+    "Intelligence": 1,
+    "Wisdom": 1,
+    "Charisma": 3
+  },
+  "Skills": {
+    "Acrobatics": 6,
+    "AnimalHandling": 1,
+    "Arcana": 1,
+    "Athletics": 0,
+    "Deception": 6,
+    "History": 1,
+    "Insight": 4,
+    "Intimidation": 3,
+    "Investigation": 4,
+    "Medicine": 1,
+    "Nature": 1,
+    "Perception": 6,
+    "Performance": 3,
+    "Persuasion": 6,
+    "Religion": 1,
+    "SleightOfHand": 6,
+    "Stealth": 9,
+    "Survival": 1
+  },
+  "Combat": {
+    "ArmorClass": 15,
+    "Initiative": 4,
+    "Speed": 30,
+    "HitPoints": {
+      "Maximum": 38,
+      "Current": 32,
+      "Temporary": 0,
+      "HitDice": "5d8"
+    }
+  },
+  "Weapons": [
+    {
+      "Name": "Rapier",
+      "AttackBonus": "+6",
+      "Damage": "1d8+4",
+      "DamageType": "Piercing",
+      "Range": "Melee",
+      "Properties": [ "Finesse" ]
+    },
+    {
+      "Name": "Shortbow",
+      "AttackBonus": "+6",
+      "Damage": "1d6+4",
+      "DamageType": "Piercing",
+      "Range": "80/320",
+      "Properties": [ "Ammunition", "Two-Handed" ]
+    },
+    {
+      "Name": "Dagger",
+      "AttackBonus": "+6",
+      "Damage": "1d4+4",
+      "DamageType": "Piercing",
+      "Range": "20/60",
+      "Properties": [ "Finesse", "Light", "Thrown" ]
+    }
+  ],
+  "Equipment": [
+    "Leather armor",
+    "Thieves' tools",
+    "Explorer’s pack",
+    "Cloak with hidden pockets",
+    "50 feet of hempen rope",
+    "Set of weighted dice"
+  ],
+  "Features": [
+    {
+      "Name": "Sneak Attack",
+      "Description": "Once per turn, deal an extra 3d6 damage to one creature you hit with a finesse or ranged weapon if you have advantage."
+    },
+    {
+      "Name": "Cunning Action",
+      "Description": "Take a bonus action each turn in combat to Dash, Disengage, or Hide."
+    },
+    {
+      "Name": "Darkvision",
+      "Description": "See in dim light within 60 feet as if it were bright light."
+    },
+    {
+      "Name": "Fey Ancestry",
+      "Description": "Advantage on saving throws against being charmed, and magic can’t put you to sleep."
+    }
+  ],
+  "Personality": {
+    "Traits": [ "I always keep my cool, even in dire situations.", "I have a sarcastic sense of humor." ],
+    "Ideals": [ "Freedom: Chains are meant to be broken, as are those who would forge them." ],
+    "Bonds": [ "My crew is my family, and I’d do anything to protect them." ],
+    "Flaws": [ "I can’t resist a shiny gem or coin, even when it gets me into trouble." ]
+  },
+  "Backstory": "Arannis grew up in the underbelly of a bustling city, surviving on quick wits and quicker hands. Over the years, he became a skilled thief and scout, but his sense of loyalty to his companions keeps him from becoming just another cutthroat criminal.",
+  "Notes": "Prefers ambushes and hit-and-run tactics. Keeps a personal journal written in thieves' cant."
+}
