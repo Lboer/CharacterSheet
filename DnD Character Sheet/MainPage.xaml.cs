@@ -35,39 +35,49 @@ public partial class MainPage : ContentPage
     public async Task SaveCharacterToDownloadsAsync()
     {
         var permissionService = new PermissionService();
-        if (!await permissionService.EnsureStoragePermissionAsync())
+
+        // guard clause
+        if (Microsoft.Maui.Controls.Application.Current?.MainPage is not null)
         {
-            await Microsoft.Maui.Controls.Application.Current.MainPage.DisplayAlert("Permission Denied", "Storage permission is required to save the file.", "OK");
-            return;
-        }
+            if (!await permissionService.EnsureStoragePermissionAsync())
+            {
+                await Microsoft.Maui.Controls.Application.Current.MainPage.DisplayAlert("Permission Denied", "Storage permission is required to save the file.", "OK");
+                return;
+            }
 
-        string fileName = await Microsoft.Maui.Controls.Application.Current.MainPage.DisplayPromptAsync(
-            "Save Character",
-            "Enter a name for your character file:",
-            placeholder: "e.g. Elowen.json"
-        );
+            string fileName = await Microsoft.Maui.Controls.Application.Current.MainPage.DisplayPromptAsync(
+                "Save Character",
+                "Enter a name for your character file:",
+                placeholder: "e.g. Elowen.json"
+            );
 
-        if (string.IsNullOrWhiteSpace(fileName))
-            return;
+            if (string.IsNullOrWhiteSpace(fileName))
+                return;
 
-        if (!fileName.EndsWith(".json"))
-            fileName += ".json";
+            if (!fileName.EndsWith(".json"))
+                fileName += ".json";
 
-        string json = JsonSerializer.Serialize(CurrentCharacter, new JsonSerializerOptions
-        {
-            WriteIndented = true
-        });
+            string json = JsonSerializer.Serialize(CurrentCharacter, new JsonSerializerOptions
+            {
+                WriteIndented = true
+            });
 
 #if ANDROID
     // Get public Downloads directory
     var downloadsDir = Android.OS.Environment.GetExternalStoragePublicDirectory(Android.OS.Environment.DirectoryDownloads);
     string filePath = Path.Combine(downloadsDir.AbsolutePath, fileName);
 #else
-        string filePath = Path.Combine(FileSystem.AppDataDirectory, fileName);
+            string filePath = Path.Combine(FileSystem.AppDataDirectory, fileName);
 #endif
 
-        File.WriteAllText(filePath, json);
+            File.WriteAllText(filePath, json);
 
-        await Microsoft.Maui.Controls.Application.Current.MainPage.DisplayAlert("Saved", $"Character saved to:\n{filePath}", "OK");
+            await Microsoft.Maui.Controls.Application.Current.MainPage.DisplayAlert("Saved", $"Character saved to:\n{filePath}", "OK");
+        }
+
+        else
+        {
+            Console.WriteLine("Application Mainpage is null");
+        }
     }
 }

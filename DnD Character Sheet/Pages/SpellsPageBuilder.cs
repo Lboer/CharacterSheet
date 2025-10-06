@@ -4,56 +4,58 @@ using DnD_Character_Sheet.PopUps;
 
 namespace DnD_Character_Sheet.Pages;
 
-public static class GenerateSpellsPage
+public static class SpellsPageBuilder
 {
-    private static Grid _parentGrid;
+    private static Grid _spellsGrid;
 
-    public static View GenerateSpellsGrid(CharacterSheet character)
+    public static View Build(CharacterSheet character)
     {
-        _parentGrid = new Grid
-        {
-            RowDefinitions =
-            {
-                new RowDefinition { Height = GridLength.Auto },
-                new RowDefinition { Height = GridLength.Auto },
-                new RowDefinition { Height = GridLength.Auto } // Edit Button
-            },
-            Padding = new Thickness(10),
-            RowSpacing = 15
-        };
-
-        var titleGrid = GenerateTitleGrid(character);
-        var spellsGrid = GenerateSpellsSection(character);
-        var editButton = GenerateEditButton(character);
-
-        _parentGrid.Add(titleGrid, 0, 0);
-        _parentGrid.Add(spellsGrid, 0, 1);
-        _parentGrid.Add(editButton, 0, 2);
+        _spellsGrid = CreateGridLayout();
+        PopulateGrid(character);
 
         return new ScrollView
         {
             Orientation = ScrollOrientation.Vertical,
-            Content = _parentGrid
+            Content = _spellsGrid
         };
     }
 
-    public static void RefreshSpellsGrid(CharacterSheet updatedCharacter)
+    public static void Refresh(CharacterSheet updatedCharacter)
     {
-        if (_parentGrid == null)
+        if (_spellsGrid == null)
             return;
 
-        _parentGrid.Children.Clear();
-
-        var titleGrid = GenerateTitleGrid(updatedCharacter);
-        var spellsGrid = GenerateSpellsSection(updatedCharacter);
-        var editButton = GenerateEditButton(updatedCharacter);
-
-        _parentGrid.Add(titleGrid, 0, 0);
-        _parentGrid.Add(spellsGrid, 0, 1);
-        _parentGrid.Add(editButton, 0, 2);
+        _spellsGrid.Children.Clear();
+        PopulateGrid(updatedCharacter);
     }
 
-    private static Grid GenerateTitleGrid(CharacterSheet character)
+    private static Grid CreateGridLayout()
+    {
+        return new Grid
+        {
+            Padding = new Thickness(10),
+            RowSpacing = 15,
+            RowDefinitions =
+            {
+                new RowDefinition { Height = GridLength.Auto }, // Title
+                new RowDefinition { Height = GridLength.Auto }, // Spells
+                new RowDefinition { Height = GridLength.Auto }  // Edit Button
+            }
+        };
+    }
+
+    private static void PopulateGrid(CharacterSheet character)
+    {
+        var titleRow = BuildTitleRow(character);
+        var spellsSection = BuildSpellsSection(character);
+        var editButton = BuildEditButton(character);
+
+        _spellsGrid.Add(titleRow, 0, 0);
+        _spellsGrid.Add(spellsSection, 0, 1);
+        _spellsGrid.Add(editButton, 0, 2);
+    }
+
+    private static Grid BuildTitleRow(CharacterSheet character)
     {
         var grid = new Grid
         {
@@ -61,7 +63,7 @@ public static class GenerateSpellsPage
             {
                 new ColumnDefinition { Width = GridLength.Star },
                 new ColumnDefinition { Width = GridLength.Star },
-                new ColumnDefinition { Width = GridLength.Star },
+                new ColumnDefinition { Width = GridLength.Star }
             },
             RowDefinitions = { new RowDefinition { Height = GridLength.Auto } }
         };
@@ -77,7 +79,7 @@ public static class GenerateSpellsPage
 
         grid.Add(new Label
         {
-            Text = $"Spell attack: +{character.SpellCasting.SpellAttackBonus}",
+            Text = $"Spell attack: +{character.SpellCasting?.SpellAttackBonus ?? 0}",
             FontAttributes = FontAttributes.Bold,
             HorizontalOptions = LayoutOptions.Center,
             Margin = new Thickness(0, 10, 0, 10)
@@ -85,7 +87,7 @@ public static class GenerateSpellsPage
 
         grid.Add(new Label
         {
-            Text = $"Spell save DC: {character.SpellCasting.SpellSaveDC}",
+            Text = $"Spell save DC: {character.SpellCasting?.SpellSaveDC ?? 0}",
             FontAttributes = FontAttributes.Bold,
             HorizontalOptions = LayoutOptions.End,
             Margin = new Thickness(0, 10, 0, 10)
@@ -94,15 +96,16 @@ public static class GenerateSpellsPage
         return grid;
     }
 
-    private static Grid GenerateSpellsSection(CharacterSheet character)
+    private static Grid BuildSpellsSection(CharacterSheet character)
     {
-        int currentRow = 0;
         var grid = new Grid
         {
             ColumnDefinitions = { new ColumnDefinition { Width = GridLength.Star } }
         };
 
-        if (character.SpellCasting.Cantrips?.Count > 0)
+        int row = 0;
+
+        if (character.SpellCasting?.Cantrips?.Count > 0)
         {
             grid.RowDefinitions.Add(new RowDefinition { Height = GridLength.Auto });
             grid.Add(new Label
@@ -112,16 +115,16 @@ public static class GenerateSpellsPage
                 FontSize = 18,
                 Margin = new Thickness(0, 5, 0, 5),
                 HorizontalOptions = LayoutOptions.Center
-            }, 0, currentRow++);
+            }, 0, row++);
 
             foreach (var cantrip in character.SpellCasting.Cantrips)
             {
                 grid.RowDefinitions.Add(new RowDefinition { Height = GridLength.Auto });
-                grid.Add(BuildSpellRow(cantrip), 0, currentRow++);
+                grid.Add(BuildSpellRow(cantrip), 0, row++);
             }
         }
 
-        if (character.SpellCasting.Spells?.Count > 0)
+        if (character.SpellCasting?.Spells?.Count > 0)
         {
             var groupedSpells = character.SpellCasting.Spells
                 .GroupBy(s => s.Level)
@@ -129,11 +132,11 @@ public static class GenerateSpellsPage
 
             foreach (var group in groupedSpells)
             {
-                var spellLevel = character.SpellCasting.Levels[group.Key - 1];
+                var levelData = character.SpellCasting!.Levels[group.Key - 1];
 
                 var slotLabel = new Label
                 {
-                    Text = $"Level {group.Key} Spells ({spellLevel.Current}/{spellLevel.Max})",
+                    Text = $"Level {group.Key} Spells ({levelData!.Current}/{levelData!.Max})",
                     FontAttributes = FontAttributes.Bold,
                     FontSize = 18,
                     Margin = new Thickness(0, 5, 0, 5),
@@ -145,59 +148,29 @@ public static class GenerateSpellsPage
                 var slotTap = new TapGestureRecognizer();
                 slotTap.Tapped += (s, e) =>
                 {
-                    var popup = new GenericValueEditPopup($"Level {group.Key} Spell Slots", spellLevel.Current, newValue =>
+                    var popup = new GenericValueEditPopup($"Level {group.Key} Spell Slots", levelData.Current, newValue =>
                     {
-                        spellLevel.Current = newValue;
-                        GenerateSpellsPage.RefreshSpellsGrid(character);
+                        levelData.Current = newValue;
+                        Refresh(character);
                     });
 
-                    Application.Current.MainPage.ShowPopup(popup);
+                    Application.Current?.MainPage?.ShowPopup(popup);
                 };
 
                 slotLabel.GestureRecognizers.Add(slotTap);
 
                 grid.RowDefinitions.Add(new RowDefinition { Height = GridLength.Auto });
-                grid.Add(slotLabel, 0, currentRow++);
+                grid.Add(slotLabel, 0, row++);
 
                 foreach (var spell in group)
                 {
                     grid.RowDefinitions.Add(new RowDefinition { Height = GridLength.Auto });
-                    grid.Add(BuildSpellRow(spell), 0, currentRow++);
+                    grid.Add(BuildSpellRow(spell), 0, row++);
                 }
             }
-
         }
 
         return grid;
-    }
-
-    private static Button GenerateEditButton(CharacterSheet character)
-    {
-        var editButton = new Button
-        {
-            Text = "Edit Spells"
-        };
-
-        editButton.Clicked += (s, e) =>
-        {
-            var startPopup = new SpellcastingStartPopup(character);
-
-            startPopup.Closed += (sender1, args1) =>
-            {
-                var endPopup = new SpellcastingEndPopup(character);
-
-                endPopup.Closed += (sender2, args2) =>
-                {
-                    RefreshSpellsGrid(character);
-                };
-
-                Application.Current.MainPage.ShowPopup(endPopup);
-            };
-
-            Application.Current.MainPage.ShowPopup(startPopup);
-        };
-
-        return editButton;
     }
 
     private static Grid BuildSpellRow(Spell spell)
@@ -258,11 +231,34 @@ public static class GenerateSpellsPage
             if (!string.IsNullOrEmpty(spell.Area))
                 details += $"\nArea: {spell.Area}";
 
-            await Application.Current.MainPage.DisplayAlert(spell.Name, details, "OK");
+            await Application.Current?.MainPage?.DisplayAlert(spell.Name, details, "OK");
         };
 
         grid.GestureRecognizers.Add(tapGesture);
 
         return grid;
+    }
+
+    private static Button BuildEditButton(CharacterSheet character)
+    {
+        var button = new Button
+        {
+            Text = "Edit Spells"
+        };
+
+        button.Clicked += (s, e) =>
+        {
+            var startPopup = new SpellcastingStartPopup(character);
+            startPopup.Closed += (_, __) =>
+            {
+                var endPopup = new SpellcastingEndPopup(character);
+                endPopup.Closed += (_, __) => Refresh(character);
+                Application.Current?.MainPage?.ShowPopup(endPopup);
+            };
+
+            Application.Current?.MainPage?.ShowPopup(startPopup);
+        };
+
+        return button;
     }
 }

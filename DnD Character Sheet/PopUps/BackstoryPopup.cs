@@ -7,12 +7,12 @@ public class BackstoryPopup : Popup
 {
     public CharacterSheet Character { get; private set; }
 
-    private List<Entry> traitEntries = new();
-    private List<Entry> idealEntries = new();
-    private List<Entry> bondEntries = new();
-    private List<Entry> flawEntries = new();
+    private readonly List<Entry> traitEntries = [];
+    private readonly List<Entry> idealEntries = [];
+    private readonly List<Entry> bondEntries = [];
+    private readonly List<Entry> flawEntries = [];
 
-    public BackstoryPopup(CharacterSheet character, bool reloadPage = false)
+    public BackstoryPopup(CharacterSheet character)
     {
         Character = character;
 
@@ -247,22 +247,18 @@ public class BackstoryPopup : Popup
         {
             character.Notes = notesEditor.Text;
             character.Backstory = backstoryEditor.Text;
-            character.Personality.Flaws = flawEntries
+            character.Personality.Flaws = [.. flawEntries
                 .Select(entry => entry.Text.Trim())
-                .Where(text => !string.IsNullOrWhiteSpace(text))
-                .ToList();
-            character.Personality.Ideals = idealEntries
+                .Where(text => !string.IsNullOrWhiteSpace(text))];
+            character.Personality.Ideals = [.. idealEntries
                 .Select(entry => entry.Text.Trim())
-                .Where(text => !string.IsNullOrWhiteSpace(text))
-                .ToList();
-            character.Personality.Bonds = bondEntries
+                .Where(text => !string.IsNullOrWhiteSpace(text))];
+            character.Personality.Bonds = [.. bondEntries
                 .Select(entry => entry.Text.Trim())
-                .Where(text => !string.IsNullOrWhiteSpace(text))
-                .ToList();
-            character.Personality.Traits = traitEntries
+                .Where(text => !string.IsNullOrWhiteSpace(text))];
+            character.Personality.Traits = [.. traitEntries
                 .Select(entry => entry.Text.Trim())
-                .Where(text => !string.IsNullOrWhiteSpace(text))
-                .ToList();
+                .Where(text => !string.IsNullOrWhiteSpace(text))];
 
             Close();
         };

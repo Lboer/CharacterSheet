@@ -352,7 +352,7 @@ public static class GenerateHomePage
 
     static Frame CreateAbilityFrame(string abilityName, int score, int save)
     {
-        int modifier = (score - 10) / 2;
+        int modifier = (int)Math.Floor((score - 10) / 2.0);
 
         var innerGrid = new Grid
         {

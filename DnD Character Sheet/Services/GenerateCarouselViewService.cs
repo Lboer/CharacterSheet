@@ -12,11 +12,11 @@ public static class GenerateCarouselViewService
         var items = new List<ViewFactoryWrapper>
         {
             new() { CreateView = () => GenerateHomePage.GenerateHomeGrid(character) },
-            new() { CreateView = () => GenerateSkillsPage.GenerateSkillsGrid(character) },
-            new() { CreateView = () => GenerateFeaturesPage.GenerateFeaturesGrid(character) },
-            new() { CreateView = () => GenerateWeaponsPage.GenerateWeaponsGrid(character) },
-            new() { CreateView = () => GenerateInventoryPage.GenerateInventoryLayout(character) },
-            new() { CreateView = () => GenerateBackstoryPage.GenerateBackstoryGrid(character) },
+            new() { CreateView = () => SkillsPageBuilder.Build(character) },
+            new() { CreateView = () => FeaturesPageBuilder.Build(character) },
+            new() { CreateView = () => WeaponsPageBuilder.Build(character) },
+            new() { CreateView = () => InventoryPageBuilder.Build(character) },
+            new() { CreateView = () => BackstoryPageBuilder.Build(character) },
         };
 
         // Conditionally add spells page
@@ -24,7 +24,7 @@ public static class GenerateCarouselViewService
         {
             items.Add(new ViewFactoryWrapper
             {
-                CreateView = () => GenerateSpellsPage.GenerateSpellsGrid(character)
+                CreateView = () => SpellsPageBuilder.Build(character)
             });
         }
 

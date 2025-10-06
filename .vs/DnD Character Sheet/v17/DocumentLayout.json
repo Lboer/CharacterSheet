@@ -3,8 +3,56 @@
   "WorkspaceRootPath": "C:\\Users\\Porth\\source\\repos\\DnD Character Sheet\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{2D7E4088-0A42-4C71-94A9-2B363EF7A05B}|DnD Character Sheet\\DnD Character Sheet.csproj|c:\\users\\porth\\source\\repos\\dnd character sheet\\dnd character sheet\\pages\\generatehomepage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D7E4088-0A42-4C71-94A9-2B363EF7A05B}|DnD Character Sheet\\DnD Character Sheet.csproj|solutionrelative:dnd character sheet\\pages\\generatehomepage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D7E4088-0A42-4C71-94A9-2B363EF7A05B}|DnD Character Sheet\\DnD Character Sheet.csproj|c:\\users\\porth\\source\\repos\\dnd character sheet\\dnd character sheet\\models\\enums\\classes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D7E4088-0A42-4C71-94A9-2B363EF7A05B}|DnD Character Sheet\\DnD Character Sheet.csproj|solutionrelative:dnd character sheet\\models\\enums\\classes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D7E4088-0A42-4C71-94A9-2B363EF7A05B}|DnD Character Sheet\\DnD Character Sheet.csproj|c:\\users\\porth\\source\\repos\\dnd character sheet\\dnd character sheet\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D7E4088-0A42-4C71-94A9-2B363EF7A05B}|DnD Character Sheet\\DnD Character Sheet.csproj|solutionrelative:dnd character sheet\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D7E4088-0A42-4C71-94A9-2B363EF7A05B}|DnD Character Sheet\\DnD Character Sheet.csproj|c:\\users\\porth\\source\\repos\\dnd character sheet\\dnd character sheet\\services\\generatecarouselviewservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D7E4088-0A42-4C71-94A9-2B363EF7A05B}|DnD Character Sheet\\DnD Character Sheet.csproj|solutionrelative:dnd character sheet\\services\\generatecarouselviewservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D7E4088-0A42-4C71-94A9-2B363EF7A05B}|DnD Character Sheet\\DnD Character Sheet.csproj|c:\\users\\porth\\source\\repos\\dnd character sheet\\dnd character sheet\\pages\\inventorypagebuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D7E4088-0A42-4C71-94A9-2B363EF7A05B}|DnD Character Sheet\\DnD Character Sheet.csproj|solutionrelative:dnd character sheet\\pages\\inventorypagebuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D7E4088-0A42-4C71-94A9-2B363EF7A05B}|DnD Character Sheet\\DnD Character Sheet.csproj|c:\\users\\porth\\source\\repos\\dnd character sheet\\dnd character sheet\\pages\\backstorypagebuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D7E4088-0A42-4C71-94A9-2B363EF7A05B}|DnD Character Sheet\\DnD Character Sheet.csproj|solutionrelative:dnd character sheet\\pages\\backstorypagebuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D7E4088-0A42-4C71-94A9-2B363EF7A05B}|DnD Character Sheet\\DnD Character Sheet.csproj|c:\\users\\porth\\source\\repos\\dnd character sheet\\dnd character sheet\\pages\\featurespagebuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D7E4088-0A42-4C71-94A9-2B363EF7A05B}|DnD Character Sheet\\DnD Character Sheet.csproj|solutionrelative:dnd character sheet\\pages\\featurespagebuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D7E4088-0A42-4C71-94A9-2B363EF7A05B}|DnD Character Sheet\\DnD Character Sheet.csproj|c:\\users\\porth\\source\\repos\\dnd character sheet\\dnd character sheet\\pages\\skillspagebuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D7E4088-0A42-4C71-94A9-2B363EF7A05B}|DnD Character Sheet\\DnD Character Sheet.csproj|solutionrelative:dnd character sheet\\pages\\skillspagebuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D7E4088-0A42-4C71-94A9-2B363EF7A05B}|DnD Character Sheet\\DnD Character Sheet.csproj|c:\\users\\porth\\source\\repos\\dnd character sheet\\dnd character sheet\\pages\\spellspagebuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D7E4088-0A42-4C71-94A9-2B363EF7A05B}|DnD Character Sheet\\DnD Character Sheet.csproj|solutionrelative:dnd character sheet\\pages\\spellspagebuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D7E4088-0A42-4C71-94A9-2B363EF7A05B}|DnD Character Sheet\\DnD Character Sheet.csproj|c:\\users\\porth\\source\\repos\\dnd character sheet\\dnd character sheet\\pages\\weaponspagebuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D7E4088-0A42-4C71-94A9-2B363EF7A05B}|DnD Character Sheet\\DnD Character Sheet.csproj|solutionrelative:dnd character sheet\\pages\\weaponspagebuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:2:0:{2D7E4088-0A42-4C71-94A9-2B363EF7A05B}|DnD Character Sheet\\DnD Character Sheet.csproj|c:\\users\\porth\\source\\repos\\dnd character sheet\\dnd character sheet\\popups\\backstorypopup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:2:0:{2D7E4088-0A42-4C71-94A9-2B363EF7A05B}|DnD Character Sheet\\DnD Character Sheet.csproj|solutionrelative:dnd character sheet\\popups\\backstorypopup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D7E4088-0A42-4C71-94A9-2B363EF7A05B}|DnD Character Sheet\\DnD Character Sheet.csproj|c:\\users\\porth\\source\\repos\\dnd character sheet\\dnd character sheet\\dnd character sheet.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{2D7E4088-0A42-4C71-94A9-2B363EF7A05B}|DnD Character Sheet\\DnD Character Sheet.csproj|solutionrelative:dnd character sheet\\dnd character sheet.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D7E4088-0A42-4C71-94A9-2B363EF7A05B}|DnD Character Sheet\\DnD Character Sheet.csproj|c:\\users\\porth\\source\\repos\\dnd character sheet\\dnd character sheet\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{2D7E4088-0A42-4C71-94A9-2B363EF7A05B}|DnD Character Sheet\\DnD Character Sheet.csproj|solutionrelative:dnd character sheet\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
     },
     {
       "AbsoluteMoniker": "D:1:0:{2D7E4088-0A42-4C71-94A9-2B363EF7A05B}|DnD Character Sheet\\DnD Character Sheet.csproj|c:\\users\\porth\\source\\repos\\dnd character sheet\\dnd character sheet\\popups\\backstorypopup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -19,10 +67,6 @@
       "RelativeMoniker": "D:0:0:{2D7E4088-0A42-4C71-94A9-2B363EF7A05B}|DnD Character Sheet\\DnD Character Sheet.csproj|solutionrelative:dnd character sheet\\resources\\appicon\\appiconfg.svg||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2D7E4088-0A42-4C71-94A9-2B363EF7A05B}|DnD Character Sheet\\DnD Character Sheet.csproj|c:\\users\\porth\\source\\repos\\dnd character sheet\\dnd character sheet\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2D7E4088-0A42-4C71-94A9-2B363EF7A05B}|DnD Character Sheet\\DnD Character Sheet.csproj|solutionrelative:dnd character sheet\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{2D7E4088-0A42-4C71-94A9-2B363EF7A05B}|DnD Character Sheet\\DnD Character Sheet.csproj|c:\\users\\porth\\source\\repos\\dnd character sheet\\dnd character sheet\\appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2D7E4088-0A42-4C71-94A9-2B363EF7A05B}|DnD Character Sheet\\DnD Character Sheet.csproj|solutionrelative:dnd character sheet\\appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -31,20 +75,8 @@
       "RelativeMoniker": "D:0:0:{2D7E4088-0A42-4C71-94A9-2B363EF7A05B}|DnD Character Sheet\\DnD Character Sheet.csproj|solutionrelative:dnd character sheet\\resources\\appicon\\appicon.svg||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2D7E4088-0A42-4C71-94A9-2B363EF7A05B}|DnD Character Sheet\\DnD Character Sheet.csproj|c:\\users\\porth\\source\\repos\\dnd character sheet\\dnd character sheet\\pages\\generateskillspage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2D7E4088-0A42-4C71-94A9-2B363EF7A05B}|DnD Character Sheet\\DnD Character Sheet.csproj|solutionrelative:dnd character sheet\\pages\\generateskillspage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2D7E4088-0A42-4C71-94A9-2B363EF7A05B}|DnD Character Sheet\\DnD Character Sheet.csproj|c:\\users\\porth\\source\\repos\\dnd character sheet\\dnd character sheet\\dnd character sheet.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{2D7E4088-0A42-4C71-94A9-2B363EF7A05B}|DnD Character Sheet\\DnD Character Sheet.csproj|solutionrelative:dnd character sheet\\dnd character sheet.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{2D7E4088-0A42-4C71-94A9-2B363EF7A05B}|DnD Character Sheet\\DnD Character Sheet.csproj|c:\\users\\porth\\source\\repos\\dnd character sheet\\dnd character sheet\\models\\charactersheet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2D7E4088-0A42-4C71-94A9-2B363EF7A05B}|DnD Character Sheet\\DnD Character Sheet.csproj|solutionrelative:dnd character sheet\\models\\charactersheet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2D7E4088-0A42-4C71-94A9-2B363EF7A05B}|DnD Character Sheet\\DnD Character Sheet.csproj|c:\\users\\porth\\source\\repos\\dnd character sheet\\dnd character sheet\\models\\enums\\classes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2D7E4088-0A42-4C71-94A9-2B363EF7A05B}|DnD Character Sheet\\DnD Character Sheet.csproj|solutionrelative:dnd character sheet\\models\\enums\\classes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2D7E4088-0A42-4C71-94A9-2B363EF7A05B}|DnD Character Sheet\\DnD Character Sheet.csproj|c:\\users\\porth\\source\\repos\\dnd character sheet\\dnd character sheet\\models\\character.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -87,18 +119,6 @@
       "RelativeMoniker": "D:0:0:{2D7E4088-0A42-4C71-94A9-2B363EF7A05B}|DnD Character Sheet\\DnD Character Sheet.csproj|solutionrelative:dnd character sheet\\popups\\savingthrowspopup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2D7E4088-0A42-4C71-94A9-2B363EF7A05B}|DnD Character Sheet\\DnD Character Sheet.csproj|c:\\users\\porth\\source\\repos\\dnd character sheet\\dnd character sheet\\pages\\generatespellspage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2D7E4088-0A42-4C71-94A9-2B363EF7A05B}|DnD Character Sheet\\DnD Character Sheet.csproj|solutionrelative:dnd character sheet\\pages\\generatespellspage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2D7E4088-0A42-4C71-94A9-2B363EF7A05B}|DnD Character Sheet\\DnD Character Sheet.csproj|c:\\users\\porth\\source\\repos\\dnd character sheet\\dnd character sheet\\pages\\generatehomepage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2D7E4088-0A42-4C71-94A9-2B363EF7A05B}|DnD Character Sheet\\DnD Character Sheet.csproj|solutionrelative:dnd character sheet\\pages\\generatehomepage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2D7E4088-0A42-4C71-94A9-2B363EF7A05B}|DnD Character Sheet\\DnD Character Sheet.csproj|c:\\users\\porth\\source\\repos\\dnd character sheet\\dnd character sheet\\services\\generatecarouselviewservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2D7E4088-0A42-4C71-94A9-2B363EF7A05B}|DnD Character Sheet\\DnD Character Sheet.csproj|solutionrelative:dnd character sheet\\services\\generatecarouselviewservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{2D7E4088-0A42-4C71-94A9-2B363EF7A05B}|DnD Character Sheet\\DnD Character Sheet.csproj|c:\\users\\porth\\source\\repos\\dnd character sheet\\dnd character sheet\\services\\editorservices\\spellcastingeditorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2D7E4088-0A42-4C71-94A9-2B363EF7A05B}|DnD Character Sheet\\DnD Character Sheet.csproj|solutionrelative:dnd character sheet\\services\\editorservices\\spellcastingeditorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -107,28 +127,12 @@
       "RelativeMoniker": "D:0:0:{2D7E4088-0A42-4C71-94A9-2B363EF7A05B}|DnD Character Sheet\\DnD Character Sheet.csproj|solutionrelative:dnd character sheet\\flows\\charactercreationflow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2D7E4088-0A42-4C71-94A9-2B363EF7A05B}|DnD Character Sheet\\DnD Character Sheet.csproj|c:\\users\\porth\\source\\repos\\dnd character sheet\\dnd character sheet\\pages\\generateweaponspage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2D7E4088-0A42-4C71-94A9-2B363EF7A05B}|DnD Character Sheet\\DnD Character Sheet.csproj|solutionrelative:dnd character sheet\\pages\\generateweaponspage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2D7E4088-0A42-4C71-94A9-2B363EF7A05B}|DnD Character Sheet\\DnD Character Sheet.csproj|c:\\users\\porth\\source\\repos\\dnd character sheet\\dnd character sheet\\pages\\generatefeaturespage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2D7E4088-0A42-4C71-94A9-2B363EF7A05B}|DnD Character Sheet\\DnD Character Sheet.csproj|solutionrelative:dnd character sheet\\pages\\generatefeaturespage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{2D7E4088-0A42-4C71-94A9-2B363EF7A05B}|DnD Character Sheet\\DnD Character Sheet.csproj|c:\\users\\porth\\source\\repos\\dnd character sheet\\dnd character sheet\\services\\editorservices\\charactereditorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2D7E4088-0A42-4C71-94A9-2B363EF7A05B}|DnD Character Sheet\\DnD Character Sheet.csproj|solutionrelative:dnd character sheet\\services\\editorservices\\charactereditorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2D7E4088-0A42-4C71-94A9-2B363EF7A05B}|DnD Character Sheet\\DnD Character Sheet.csproj|c:\\users\\porth\\source\\repos\\dnd character sheet\\dnd character sheet\\services\\editorservices\\skillseditorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2D7E4088-0A42-4C71-94A9-2B363EF7A05B}|DnD Character Sheet\\DnD Character Sheet.csproj|solutionrelative:dnd character sheet\\services\\editorservices\\skillseditorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2D7E4088-0A42-4C71-94A9-2B363EF7A05B}|DnD Character Sheet\\DnD Character Sheet.csproj|c:\\users\\porth\\source\\repos\\dnd character sheet\\dnd character sheet\\pages\\generatebackstorypage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2D7E4088-0A42-4C71-94A9-2B363EF7A05B}|DnD Character Sheet\\DnD Character Sheet.csproj|solutionrelative:dnd character sheet\\pages\\generatebackstorypage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2D7E4088-0A42-4C71-94A9-2B363EF7A05B}|DnD Character Sheet\\DnD Character Sheet.csproj|c:\\users\\porth\\source\\repos\\dnd character sheet\\dnd character sheet\\pages\\generateinventorypage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2D7E4088-0A42-4C71-94A9-2B363EF7A05B}|DnD Character Sheet\\DnD Character Sheet.csproj|solutionrelative:dnd character sheet\\pages\\generateinventorypage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2D7E4088-0A42-4C71-94A9-2B363EF7A05B}|DnD Character Sheet\\DnD Character Sheet.csproj|c:\\users\\porth\\source\\repos\\dnd character sheet\\dnd character sheet\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
@@ -191,116 +195,129 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "BackstoryPopup.cs",
-              "DocumentMoniker": "C:\\Users\\Porth\\source\\repos\\DnD Character Sheet\\DnD Character Sheet\\PopUps\\BackstoryPopup.cs",
-              "RelativeDocumentMoniker": "DnD Character Sheet\\PopUps\\BackstoryPopup.cs",
-              "ToolTip": "C:\\Users\\Porth\\source\\repos\\DnD Character Sheet\\DnD Character Sheet\\PopUps\\BackstoryPopup.cs",
-              "RelativeToolTip": "DnD Character Sheet\\PopUps\\BackstoryPopup.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAtAAAAAAAAAA==",
+              "Title": "GenerateHomePage.cs",
+              "DocumentMoniker": "C:\\Users\\Porth\\source\\repos\\DnD Character Sheet\\DnD Character Sheet\\Pages\\GenerateHomePage.cs",
+              "RelativeDocumentMoniker": "DnD Character Sheet\\Pages\\GenerateHomePage.cs",
+              "ToolTip": "C:\\Users\\Porth\\source\\repos\\DnD Character Sheet\\DnD Character Sheet\\Pages\\GenerateHomePage.cs",
+              "RelativeToolTip": "DnD Character Sheet\\Pages\\GenerateHomePage.cs",
+              "ViewState": "AgIAAE0BAAAAAAAAAAASwGEBAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-02T09:50:19.977Z",
+              "WhenOpened": "2025-10-02T15:06:20.45Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Classes.cs",
-              "DocumentMoniker": "C:\\Users\\Porth\\source\\repos\\DnD Character Sheet\\DnD Character Sheet\\Models\\Enums\\Classes.cs",
-              "RelativeDocumentMoniker": "DnD Character Sheet\\Models\\Enums\\Classes.cs",
-              "ToolTip": "C:\\Users\\Porth\\source\\repos\\DnD Character Sheet\\DnD Character Sheet\\Models\\Enums\\Classes.cs",
-              "RelativeToolTip": "DnD Character Sheet\\Models\\Enums\\Classes.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-30T20:12:39.5Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "GenerateSkillsPage.cs",
-              "DocumentMoniker": "C:\\Users\\Porth\\source\\repos\\DnD Character Sheet\\DnD Character Sheet\\Pages\\GenerateSkillsPage.cs",
-              "RelativeDocumentMoniker": "DnD Character Sheet\\Pages\\GenerateSkillsPage.cs",
-              "ToolTip": "C:\\Users\\Porth\\source\\repos\\DnD Character Sheet\\DnD Character Sheet\\Pages\\GenerateSkillsPage.cs",
-              "RelativeToolTip": "DnD Character Sheet\\Pages\\GenerateSkillsPage.cs",
-              "ViewState": "AgIAAEwAAAAAAAAAAAAUwLcAAAAJAAAAAAAAAA==",
+              "Title": "SkillsPageBuilder.cs",
+              "DocumentMoniker": "C:\\Users\\Porth\\source\\repos\\DnD Character Sheet\\DnD Character Sheet\\Pages\\SkillsPageBuilder.cs",
+              "RelativeDocumentMoniker": "DnD Character Sheet\\Pages\\SkillsPageBuilder.cs",
+              "ToolTip": "C:\\Users\\Porth\\source\\repos\\DnD Character Sheet\\DnD Character Sheet\\Pages\\SkillsPageBuilder.cs",
+              "RelativeToolTip": "DnD Character Sheet\\Pages\\SkillsPageBuilder.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-15T16:30:04.7Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "AppShell.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\Porth\\source\\repos\\DnD Character Sheet\\DnD Character Sheet\\AppShell.xaml.cs",
-              "RelativeDocumentMoniker": "DnD Character Sheet\\AppShell.xaml.cs",
-              "ToolTip": "C:\\Users\\Porth\\source\\repos\\DnD Character Sheet\\DnD Character Sheet\\AppShell.xaml.cs",
-              "RelativeToolTip": "DnD Character Sheet\\AppShell.xaml.cs",
-              "ViewState": "AgIAACoAAAAAAAAAAAAowEEAAAA2AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-17T13:19:17.54Z"
+              "WhenOpened": "2025-10-02T15:03:20.141Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "InventoryPageBuilder.cs",
+              "DocumentMoniker": "C:\\Users\\Porth\\source\\repos\\DnD Character Sheet\\DnD Character Sheet\\Pages\\InventoryPageBuilder.cs",
+              "RelativeDocumentMoniker": "DnD Character Sheet\\Pages\\InventoryPageBuilder.cs",
+              "ToolTip": "C:\\Users\\Porth\\source\\repos\\DnD Character Sheet\\DnD Character Sheet\\Pages\\InventoryPageBuilder.cs",
+              "RelativeToolTip": "DnD Character Sheet\\Pages\\InventoryPageBuilder.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-02T14:53:01.153Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "WeaponsPageBuilder.cs",
+              "DocumentMoniker": "C:\\Users\\Porth\\source\\repos\\DnD Character Sheet\\DnD Character Sheet\\Pages\\WeaponsPageBuilder.cs",
+              "RelativeDocumentMoniker": "DnD Character Sheet\\Pages\\WeaponsPageBuilder.cs",
+              "ToolTip": "C:\\Users\\Porth\\source\\repos\\DnD Character Sheet\\DnD Character Sheet\\Pages\\WeaponsPageBuilder.cs",
+              "RelativeToolTip": "DnD Character Sheet\\Pages\\WeaponsPageBuilder.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-15T16:31:20.977Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "BackstoryPageBuilder.cs",
+              "DocumentMoniker": "C:\\Users\\Porth\\source\\repos\\DnD Character Sheet\\DnD Character Sheet\\Pages\\BackstoryPageBuilder.cs",
+              "RelativeDocumentMoniker": "DnD Character Sheet\\Pages\\BackstoryPageBuilder.cs",
+              "ToolTip": "C:\\Users\\Porth\\source\\repos\\DnD Character Sheet\\DnD Character Sheet\\Pages\\BackstoryPageBuilder.cs",
+              "RelativeToolTip": "DnD Character Sheet\\Pages\\BackstoryPageBuilder.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-15T16:14:44.783Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "MainPage.xaml.cs",
               "DocumentMoniker": "C:\\Users\\Porth\\source\\repos\\DnD Character Sheet\\DnD Character Sheet\\MainPage.xaml.cs",
               "RelativeDocumentMoniker": "DnD Character Sheet\\MainPage.xaml.cs",
               "ToolTip": "C:\\Users\\Porth\\source\\repos\\DnD Character Sheet\\DnD Character Sheet\\MainPage.xaml.cs",
               "RelativeToolTip": "DnD Character Sheet\\MainPage.xaml.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAAqwEAAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-17T12:57:38.087Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "appicon.svg",
-              "DocumentMoniker": "C:\\Users\\Porth\\source\\repos\\DnD Character Sheet\\DnD Character Sheet\\Resources\\AppIcon\\appicon.svg",
-              "RelativeDocumentMoniker": "DnD Character Sheet\\Resources\\AppIcon\\appicon.svg",
-              "ToolTip": "C:\\Users\\Porth\\source\\repos\\DnD Character Sheet\\DnD Character Sheet\\Resources\\AppIcon\\appicon.svg",
-              "RelativeToolTip": "DnD Character Sheet\\Resources\\AppIcon\\appicon.svg",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAGAAAAAAAAAA==",
-              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAKMSURBVDhPjZNLSFRhFMd/3507M/dKPsacsYelWGZZFFJRkdSmNrUoatMiKggSN2YFEUX3MvQiiBYWtFAyggoXPSGyhQuhFrXQFr7GMFOowcZMUO9MM3pPi9Eao6gf/Bcfh3PO/5yPo8jAsqxI5vtvKKXuhMPhK4jInIBlWRH5Bw0NDYOWZUVs264B0DILKEUXCCIpZOIi7uetpHpCxN8GiffU4rrThEIhXzgcXiEidbZtH/5ZQKTV\u002B72oItjSYfG5vxwneoX2/iW80dvxb4ji9D4BIBAIeBsbG4fSOXJWzSR7qpt9D\u002BvWndpTlNXL2HCQ28PXaIuVEB2Dmsp8DiZqyN35FAFiw19IJpPcbmrq0wCq7\u002BvHd5Y\u002B2rMy5y3OcBXmqtccq9rB/uUFKI/GzfZRPhRdBhEQIRgKUlxSAoAm0uqtWNB5Yu\u002Bier5\u002BWOoWbnxAwAwQzDao3lLIobX5ePxemiImroCIzFm\u002BztT7/CPLzi8ej\u002BVxdeyu1nJjgMR3FwDl0fD4dJRHozuWACStjM/TGDlZ50tNqHuxejo\u002B\u002BZPL8wwqCvxUFPhZFfBSbIBMJti0wJjpDpJRQXfjzr6uj9u\u002BtYysCWijA4OPqzeXpVLJtE010zS9cZDM1DTa9ASLmoaOnh4cEYaySsoa30T5Mp5kPD7Ni\u002B5Rtt7qofzqO553jqQHmHExi5p8RcRNsb6y7VWtnm1ecjUdcdM7QClwhQPl8zi3o\u002BiXdREMMwvbtvv0KYfmRJSBtvlVY93O6ujLlc8WdsYcdE1RmutlV3kO20tzcXFRohBFerQ/ccE6c11EJB53xIk7EndmNSnObxIRsSwrMucWUvh2AxiGiWmYGOassjB/0yxzzPzvOWfyAyvlXYiiBFoWAAAAAElFTkSuQmCC",
-              "WhenOpened": "2025-10-01T08:37:49.249Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "appiconfg.svg",
-              "DocumentMoniker": "C:\\Users\\Porth\\source\\repos\\DnD Character Sheet\\DnD Character Sheet\\Resources\\AppIcon\\appiconfg.svg",
-              "RelativeDocumentMoniker": "DnD Character Sheet\\Resources\\AppIcon\\appiconfg.svg",
-              "ToolTip": "C:\\Users\\Porth\\source\\repos\\DnD Character Sheet\\DnD Character Sheet\\Resources\\AppIcon\\appiconfg.svg",
-              "RelativeToolTip": "DnD Character Sheet\\Resources\\AppIcon\\appiconfg.svg",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAXAAAAAAAAAA==",
-              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAKMSURBVDhPjZNLSFRhFMd/3507M/dKPsacsYelWGZZFFJRkdSmNrUoatMiKggSN2YFEUX3MvQiiBYWtFAyggoXPSGyhQuhFrXQFr7GMFOowcZMUO9MM3pPi9Eao6gf/Bcfh3PO/5yPo8jAsqxI5vtvKKXuhMPhK4jInIBlWRH5Bw0NDYOWZUVs264B0DILKEUXCCIpZOIi7uetpHpCxN8GiffU4rrThEIhXzgcXiEidbZtH/5ZQKTV\u002B72oItjSYfG5vxwneoX2/iW80dvxb4ji9D4BIBAIeBsbG4fSOXJWzSR7qpt9D\u002BvWndpTlNXL2HCQ28PXaIuVEB2Dmsp8DiZqyN35FAFiw19IJpPcbmrq0wCq7\u002BvHd5Y\u002B2rMy5y3OcBXmqtccq9rB/uUFKI/GzfZRPhRdBhEQIRgKUlxSAoAm0uqtWNB5Yu\u002Bier5\u002BWOoWbnxAwAwQzDao3lLIobX5ePxemiImroCIzFm\u002BztT7/CPLzi8ej\u002BVxdeyu1nJjgMR3FwDl0fD4dJRHozuWACStjM/TGDlZ50tNqHuxejo\u002B\u002BZPL8wwqCvxUFPhZFfBSbIBMJti0wJjpDpJRQXfjzr6uj9u\u002BtYysCWijA4OPqzeXpVLJtE010zS9cZDM1DTa9ASLmoaOnh4cEYaySsoa30T5Mp5kPD7Ni\u002B5Rtt7qofzqO553jqQHmHExi5p8RcRNsb6y7VWtnm1ecjUdcdM7QClwhQPl8zi3o\u002BiXdREMMwvbtvv0KYfmRJSBtvlVY93O6ujLlc8WdsYcdE1RmutlV3kO20tzcXFRohBFerQ/ccE6c11EJB53xIk7EndmNSnObxIRsSwrMucWUvh2AxiGiWmYGOassjB/0yxzzPzvOWfyAyvlXYiiBFoWAAAAAElFTkSuQmCC",
-              "WhenOpened": "2025-10-01T08:37:51.022Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "SavingThrowsPopup.cs",
-              "DocumentMoniker": "C:\\Users\\Porth\\source\\repos\\DnD Character Sheet\\DnD Character Sheet\\PopUps\\SavingThrowsPopup.cs",
-              "RelativeDocumentMoniker": "DnD Character Sheet\\PopUps\\SavingThrowsPopup.cs",
-              "ToolTip": "C:\\Users\\Porth\\source\\repos\\DnD Character Sheet\\DnD Character Sheet\\PopUps\\SavingThrowsPopup.cs",
-              "RelativeToolTip": "DnD Character Sheet\\PopUps\\SavingThrowsPopup.cs",
-              "ViewState": "AgIAACsAAAAAAAAAAAAIwEcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-17T06:31:46.584Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "BackstoryPopup.cs",
-              "DocumentMoniker": "C:\\Users\\Porth\\source\\repos\\DnD Character Sheet\\DnD Character Sheet\\PopUps\\BackstoryPopup.cs",
-              "RelativeDocumentMoniker": "DnD Character Sheet\\PopUps\\BackstoryPopup.cs",
-              "ToolTip": "C:\\Users\\Porth\\source\\repos\\DnD Character Sheet\\DnD Character Sheet\\PopUps\\BackstoryPopup.cs",
-              "RelativeToolTip": "DnD Character Sheet\\PopUps\\BackstoryPopup.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-17T14:37:58.728Z",
+              "WhenOpened": "2025-09-17T12:57:38.087Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 8,
+              "Title": "SpellsPageBuilder.cs",
+              "DocumentMoniker": "C:\\Users\\Porth\\source\\repos\\DnD Character Sheet\\DnD Character Sheet\\Pages\\SpellsPageBuilder.cs",
+              "RelativeDocumentMoniker": "DnD Character Sheet\\Pages\\SpellsPageBuilder.cs",
+              "ToolTip": "C:\\Users\\Porth\\source\\repos\\DnD Character Sheet\\DnD Character Sheet\\Pages\\SpellsPageBuilder.cs",
+              "RelativeToolTip": "DnD Character Sheet\\Pages\\SpellsPageBuilder.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-19T07:09:20.214Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GenerateCarouselViewService.cs",
+              "DocumentMoniker": "C:\\Users\\Porth\\source\\repos\\DnD Character Sheet\\DnD Character Sheet\\Services\\GenerateCarouselViewService.cs",
+              "RelativeDocumentMoniker": "DnD Character Sheet\\Services\\GenerateCarouselViewService.cs",
+              "ToolTip": "C:\\Users\\Porth\\source\\repos\\DnD Character Sheet\\DnD Character Sheet\\Services\\GenerateCarouselViewService.cs",
+              "RelativeToolTip": "DnD Character Sheet\\Services\\GenerateCarouselViewService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-15T18:44:05.891Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Classes.cs",
+              "DocumentMoniker": "C:\\Users\\Porth\\source\\repos\\DnD Character Sheet\\DnD Character Sheet\\Models\\Enums\\Classes.cs",
+              "RelativeDocumentMoniker": "DnD Character Sheet\\Models\\Enums\\Classes.cs",
+              "ToolTip": "C:\\Users\\Porth\\source\\repos\\DnD Character Sheet\\DnD Character Sheet\\Models\\Enums\\Classes.cs",
+              "RelativeToolTip": "DnD Character Sheet\\Models\\Enums\\Classes.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T20:12:39.5Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "FeaturesPageBuilder.cs",
+              "DocumentMoniker": "C:\\Users\\Porth\\source\\repos\\DnD Character Sheet\\DnD Character Sheet\\Pages\\FeaturesPageBuilder.cs",
+              "RelativeDocumentMoniker": "DnD Character Sheet\\Pages\\FeaturesPageBuilder.cs",
+              "ToolTip": "C:\\Users\\Porth\\source\\repos\\DnD Character Sheet\\DnD Character Sheet\\Pages\\FeaturesPageBuilder.cs",
+              "RelativeToolTip": "DnD Character Sheet\\Pages\\FeaturesPageBuilder.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-02T15:06:25.269Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "WeaponsPopup.cs",
               "DocumentMoniker": "C:\\Users\\Porth\\source\\repos\\DnD Character Sheet\\DnD Character Sheet\\PopUps\\WeaponsPopup.cs",
               "RelativeDocumentMoniker": "DnD Character Sheet\\PopUps\\WeaponsPopup.cs",
@@ -312,7 +329,103 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": ".gitignore",
+              "DocumentMoniker": "C:\\Users\\Porth\\source\\repos\\DnD Character Sheet\\DnD Character Sheet\\.gitignore",
+              "RelativeDocumentMoniker": "DnD Character Sheet\\.gitignore",
+              "ToolTip": "C:\\Users\\Porth\\source\\repos\\DnD Character Sheet\\DnD Character Sheet\\.gitignore",
+              "RelativeToolTip": "DnD Character Sheet\\.gitignore",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-10-02T12:06:01.628Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "DnD Character Sheet.csproj",
+              "DocumentMoniker": "C:\\Users\\Porth\\source\\repos\\DnD Character Sheet\\DnD Character Sheet\\DnD Character Sheet.csproj",
+              "RelativeDocumentMoniker": "DnD Character Sheet\\DnD Character Sheet.csproj",
+              "ToolTip": "C:\\Users\\Porth\\source\\repos\\DnD Character Sheet\\DnD Character Sheet\\DnD Character Sheet.csproj",
+              "RelativeToolTip": "DnD Character Sheet\\DnD Character Sheet.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-09-15T18:56:57.294Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "BackstoryPopup.cs",
+              "DocumentMoniker": "C:\\Users\\Porth\\source\\repos\\DnD Character Sheet\\DnD Character Sheet\\PopUps\\BackstoryPopup.cs",
+              "RelativeDocumentMoniker": "DnD Character Sheet\\PopUps\\BackstoryPopup.cs",
+              "ToolTip": "C:\\Users\\Porth\\source\\repos\\DnD Character Sheet\\DnD Character Sheet\\PopUps\\BackstoryPopup.cs",
+              "RelativeToolTip": "DnD Character Sheet\\PopUps\\BackstoryPopup.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAUAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-02T09:50:19.977Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "BackstoryPopup.cs",
+              "DocumentMoniker": "C:\\Users\\Porth\\source\\repos\\DnD Character Sheet\\DnD Character Sheet\\PopUps\\BackstoryPopup.cs",
+              "RelativeDocumentMoniker": "DnD Character Sheet\\PopUps\\BackstoryPopup.cs",
+              "ToolTip": "C:\\Users\\Porth\\source\\repos\\DnD Character Sheet\\DnD Character Sheet\\PopUps\\BackstoryPopup.cs",
+              "RelativeToolTip": "DnD Character Sheet\\PopUps\\BackstoryPopup.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-17T14:37:58.728Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "SavingThrowsPopup.cs",
+              "DocumentMoniker": "C:\\Users\\Porth\\source\\repos\\DnD Character Sheet\\DnD Character Sheet\\PopUps\\SavingThrowsPopup.cs",
+              "RelativeDocumentMoniker": "DnD Character Sheet\\PopUps\\SavingThrowsPopup.cs",
+              "ToolTip": "C:\\Users\\Porth\\source\\repos\\DnD Character Sheet\\DnD Character Sheet\\PopUps\\SavingThrowsPopup.cs",
+              "RelativeToolTip": "DnD Character Sheet\\PopUps\\SavingThrowsPopup.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAIwEcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-17T06:31:46.584Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 15,
+              "Title": "appiconfg.svg",
+              "DocumentMoniker": "C:\\Users\\Porth\\source\\repos\\DnD Character Sheet\\DnD Character Sheet\\Resources\\AppIcon\\appiconfg.svg",
+              "RelativeDocumentMoniker": "DnD Character Sheet\\Resources\\AppIcon\\appiconfg.svg",
+              "ToolTip": "C:\\Users\\Porth\\source\\repos\\DnD Character Sheet\\DnD Character Sheet\\Resources\\AppIcon\\appiconfg.svg",
+              "RelativeToolTip": "DnD Character Sheet\\Resources\\AppIcon\\appiconfg.svg",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAXAAAAAAAAAA==",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAKMSURBVDhPjZNLSFRhFMd/3507M/dKPsacsYelWGZZFFJRkdSmNrUoatMiKggSN2YFEUX3MvQiiBYWtFAyggoXPSGyhQuhFrXQFr7GMFOowcZMUO9MM3pPi9Eao6gf/Bcfh3PO/5yPo8jAsqxI5vtvKKXuhMPhK4jInIBlWRH5Bw0NDYOWZUVs264B0DILKEUXCCIpZOIi7uetpHpCxN8GiffU4rrThEIhXzgcXiEidbZtH/5ZQKTV\u002B72oItjSYfG5vxwneoX2/iW80dvxb4ji9D4BIBAIeBsbG4fSOXJWzSR7qpt9D\u002BvWndpTlNXL2HCQ28PXaIuVEB2Dmsp8DiZqyN35FAFiw19IJpPcbmrq0wCq7\u002BvHd5Y\u002B2rMy5y3OcBXmqtccq9rB/uUFKI/GzfZRPhRdBhEQIRgKUlxSAoAm0uqtWNB5Yu\u002Bier5\u002BWOoWbnxAwAwQzDao3lLIobX5ePxemiImroCIzFm\u002BztT7/CPLzi8ej\u002BVxdeyu1nJjgMR3FwDl0fD4dJRHozuWACStjM/TGDlZ50tNqHuxejo\u002B\u002BZPL8wwqCvxUFPhZFfBSbIBMJti0wJjpDpJRQXfjzr6uj9u\u002BtYysCWijA4OPqzeXpVLJtE010zS9cZDM1DTa9ASLmoaOnh4cEYaySsoa30T5Mp5kPD7Ni\u002B5Rtt7qofzqO553jqQHmHExi5p8RcRNsb6y7VWtnm1ecjUdcdM7QClwhQPl8zi3o\u002BiXdREMMwvbtvv0KYfmRJSBtvlVY93O6ujLlc8WdsYcdE1RmutlV3kO20tzcXFRohBFerQ/ccE6c11EJB53xIk7EndmNSnObxIRsSwrMucWUvh2AxiGiWmYGOassjB/0yxzzPzvOWfyAyvlXYiiBFoWAAAAAElFTkSuQmCC",
+              "WhenOpened": "2025-10-01T08:37:51.022Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "appicon.svg",
+              "DocumentMoniker": "C:\\Users\\Porth\\source\\repos\\DnD Character Sheet\\DnD Character Sheet\\Resources\\AppIcon\\appicon.svg",
+              "RelativeDocumentMoniker": "DnD Character Sheet\\Resources\\AppIcon\\appicon.svg",
+              "ToolTip": "C:\\Users\\Porth\\source\\repos\\DnD Character Sheet\\DnD Character Sheet\\Resources\\AppIcon\\appicon.svg",
+              "RelativeToolTip": "DnD Character Sheet\\Resources\\AppIcon\\appicon.svg",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAGAAAAAAAAAA==",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAKMSURBVDhPjZNLSFRhFMd/3507M/dKPsacsYelWGZZFFJRkdSmNrUoatMiKggSN2YFEUX3MvQiiBYWtFAyggoXPSGyhQuhFrXQFr7GMFOowcZMUO9MM3pPi9Eao6gf/Bcfh3PO/5yPo8jAsqxI5vtvKKXuhMPhK4jInIBlWRH5Bw0NDYOWZUVs264B0DILKEUXCCIpZOIi7uetpHpCxN8GiffU4rrThEIhXzgcXiEidbZtH/5ZQKTV\u002B72oItjSYfG5vxwneoX2/iW80dvxb4ji9D4BIBAIeBsbG4fSOXJWzSR7qpt9D\u002BvWndpTlNXL2HCQ28PXaIuVEB2Dmsp8DiZqyN35FAFiw19IJpPcbmrq0wCq7\u002BvHd5Y\u002B2rMy5y3OcBXmqtccq9rB/uUFKI/GzfZRPhRdBhEQIRgKUlxSAoAm0uqtWNB5Yu\u002Bier5\u002BWOoWbnxAwAwQzDao3lLIobX5ePxemiImroCIzFm\u002BztT7/CPLzi8ej\u002BVxdeyu1nJjgMR3FwDl0fD4dJRHozuWACStjM/TGDlZ50tNqHuxejo\u002B\u002BZPL8wwqCvxUFPhZFfBSbIBMJti0wJjpDpJRQXfjzr6uj9u\u002BtYysCWijA4OPqzeXpVLJtE010zS9cZDM1DTa9ASLmoaOnh4cEYaySsoa30T5Mp5kPD7Ni\u002B5Rtt7qofzqO553jqQHmHExi5p8RcRNsb6y7VWtnm1ecjUdcdM7QClwhQPl8zi3o\u002BiXdREMMwvbtvv0KYfmRJSBtvlVY93O6ujLlc8WdsYcdE1RmutlV3kO20tzcXFRohBFerQ/ccE6c11EJB53xIk7EndmNSnObxIRsSwrMucWUvh2AxiGiWmYGOassjB/0yxzzPzvOWfyAyvlXYiiBFoWAAAAAElFTkSuQmCC",
+              "WhenOpened": "2025-10-01T08:37:49.249Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "AppShell.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Porth\\source\\repos\\DnD Character Sheet\\DnD Character Sheet\\AppShell.xaml.cs",
+              "RelativeDocumentMoniker": "DnD Character Sheet\\AppShell.xaml.cs",
+              "ToolTip": "C:\\Users\\Porth\\source\\repos\\DnD Character Sheet\\DnD Character Sheet\\AppShell.xaml.cs",
+              "RelativeToolTip": "DnD Character Sheet\\AppShell.xaml.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAowEEAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-17T13:19:17.54Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
               "Title": "GenericValueEditPopup.cs",
               "DocumentMoniker": "C:\\Users\\Porth\\source\\repos\\DnD Character Sheet\\DnD Character Sheet\\PopUps\\GenericValueEditPopup.cs",
               "RelativeDocumentMoniker": "DnD Character Sheet\\PopUps\\GenericValueEditPopup.cs",
@@ -324,19 +437,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "DnD Character Sheet.csproj",
-              "DocumentMoniker": "C:\\Users\\Porth\\source\\repos\\DnD Character Sheet\\DnD Character Sheet\\DnD Character Sheet.csproj",
-              "RelativeDocumentMoniker": "DnD Character Sheet\\DnD Character Sheet.csproj",
-              "ToolTip": "C:\\Users\\Porth\\source\\repos\\DnD Character Sheet\\DnD Character Sheet\\DnD Character Sheet.csproj",
-              "RelativeToolTip": "DnD Character Sheet\\DnD Character Sheet.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAABNAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-09-15T18:56:57.294Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 27,
               "Title": "CharacterStatsPopup.cs",
               "DocumentMoniker": "C:\\Users\\Porth\\source\\repos\\DnD Character Sheet\\DnD Character Sheet\\PopUps\\CharacterStatsPopup.cs",
               "RelativeDocumentMoniker": "DnD Character Sheet\\PopUps\\CharacterStatsPopup.cs",
@@ -348,19 +449,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "GenerateSpellsPage.cs",
-              "DocumentMoniker": "C:\\Users\\Porth\\source\\repos\\DnD Character Sheet\\DnD Character Sheet\\Pages\\GenerateSpellsPage.cs",
-              "RelativeDocumentMoniker": "DnD Character Sheet\\Pages\\GenerateSpellsPage.cs",
-              "ToolTip": "C:\\Users\\Porth\\source\\repos\\DnD Character Sheet\\DnD Character Sheet\\Pages\\GenerateSpellsPage.cs",
-              "RelativeToolTip": "DnD Character Sheet\\Pages\\GenerateSpellsPage.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-19T07:09:20.214Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 24,
               "Title": "CharacterInfoPopup.cs",
               "DocumentMoniker": "C:\\Users\\Porth\\source\\repos\\DnD Character Sheet\\DnD Character Sheet\\PopUps\\CharacterInfoPopup.cs",
               "RelativeDocumentMoniker": "DnD Character Sheet\\PopUps\\CharacterInfoPopup.cs",
@@ -372,7 +461,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 19,
               "Title": "Character.cs",
               "DocumentMoniker": "C:\\Users\\Porth\\source\\repos\\DnD Character Sheet\\DnD Character Sheet\\Models\\Character.cs",
               "RelativeDocumentMoniker": "DnD Character Sheet\\Models\\Character.cs",
@@ -384,7 +473,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 18,
               "Title": "CharacterSheet.cs",
               "DocumentMoniker": "C:\\Users\\Porth\\source\\repos\\DnD Character Sheet\\DnD Character Sheet\\Models\\CharacterSheet.cs",
               "RelativeDocumentMoniker": "DnD Character Sheet\\Models\\CharacterSheet.cs",
@@ -396,7 +485,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 20,
               "Title": "SpellcastingStartPopup.cs",
               "DocumentMoniker": "C:\\Users\\Porth\\source\\repos\\DnD Character Sheet\\DnD Character Sheet\\PopUps\\SpellcastingStartPopup.cs",
               "RelativeDocumentMoniker": "DnD Character Sheet\\PopUps\\SpellcastingStartPopup.cs",
@@ -408,7 +497,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 22,
               "Title": "SkillsStartPopup.cs",
               "DocumentMoniker": "C:\\Users\\Porth\\source\\repos\\DnD Character Sheet\\DnD Character Sheet\\PopUps\\SkillsStartPopup.cs",
               "RelativeDocumentMoniker": "DnD Character Sheet\\PopUps\\SkillsStartPopup.cs",
@@ -420,7 +509,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 26,
               "Title": "AbilityScoresPopup.cs",
               "DocumentMoniker": "C:\\Users\\Porth\\source\\repos\\DnD Character Sheet\\DnD Character Sheet\\PopUps\\AbilityScoresPopup.cs",
               "RelativeDocumentMoniker": "DnD Character Sheet\\PopUps\\AbilityScoresPopup.cs",
@@ -432,7 +521,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 21,
               "Title": "SpellcastingEndPopup.cs",
               "DocumentMoniker": "C:\\Users\\Porth\\source\\repos\\DnD Character Sheet\\DnD Character Sheet\\PopUps\\SpellcastingEndPopup.cs",
               "RelativeDocumentMoniker": "DnD Character Sheet\\PopUps\\SpellcastingEndPopup.cs",
@@ -444,7 +533,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 25,
               "Title": "SkillsEndPopup.cs",
               "DocumentMoniker": "C:\\Users\\Porth\\source\\repos\\DnD Character Sheet\\DnD Character Sheet\\PopUps\\SkillsEndPopup.cs",
               "RelativeDocumentMoniker": "DnD Character Sheet\\PopUps\\SkillsEndPopup.cs",
@@ -456,7 +545,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 30,
               "Title": "CharacterCreationFlow.cs",
               "DocumentMoniker": "C:\\Users\\Porth\\source\\repos\\DnD Character Sheet\\DnD Character Sheet\\Flows\\CharacterCreationFlow.cs",
               "RelativeDocumentMoniker": "DnD Character Sheet\\Flows\\CharacterCreationFlow.cs",
@@ -468,31 +557,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "GenerateHomePage.cs",
-              "DocumentMoniker": "C:\\Users\\Porth\\source\\repos\\DnD Character Sheet\\DnD Character Sheet\\Pages\\GenerateHomePage.cs",
-              "RelativeDocumentMoniker": "DnD Character Sheet\\Pages\\GenerateHomePage.cs",
-              "ToolTip": "C:\\Users\\Porth\\source\\repos\\DnD Character Sheet\\DnD Character Sheet\\Pages\\GenerateHomePage.cs",
-              "RelativeToolTip": "DnD Character Sheet\\Pages\\GenerateHomePage.cs",
-              "ViewState": "AgIAAAQBAAAAAAAAAAAmwCEBAAA6AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-15T16:25:43.909Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "GenerateWeaponsPage.cs",
-              "DocumentMoniker": "C:\\Users\\Porth\\source\\repos\\DnD Character Sheet\\DnD Character Sheet\\Pages\\GenerateWeaponsPage.cs",
-              "RelativeDocumentMoniker": "DnD Character Sheet\\Pages\\GenerateWeaponsPage.cs",
-              "ToolTip": "C:\\Users\\Porth\\source\\repos\\DnD Character Sheet\\DnD Character Sheet\\Pages\\GenerateWeaponsPage.cs",
-              "RelativeToolTip": "DnD Character Sheet\\Pages\\GenerateWeaponsPage.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAOEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-15T16:31:20.977Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 31,
               "Title": "CharacterEditorService.cs",
               "DocumentMoniker": "C:\\Users\\Porth\\source\\repos\\DnD Character Sheet\\DnD Character Sheet\\Services\\EditorServices\\CharacterEditorService.cs",
               "RelativeDocumentMoniker": "DnD Character Sheet\\Services\\EditorServices\\CharacterEditorService.cs",
@@ -504,7 +569,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 29,
               "Title": "SpellcastingEditorService.cs",
               "DocumentMoniker": "C:\\Users\\Porth\\source\\repos\\DnD Character Sheet\\DnD Character Sheet\\Services\\EditorServices\\SpellcastingEditorService.cs",
               "RelativeDocumentMoniker": "DnD Character Sheet\\Services\\EditorServices\\SpellcastingEditorService.cs",
@@ -516,31 +581,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "GenerateCarouselViewService.cs",
-              "DocumentMoniker": "C:\\Users\\Porth\\source\\repos\\DnD Character Sheet\\DnD Character Sheet\\Services\\GenerateCarouselViewService.cs",
-              "RelativeDocumentMoniker": "DnD Character Sheet\\Services\\GenerateCarouselViewService.cs",
-              "ToolTip": "C:\\Users\\Porth\\source\\repos\\DnD Character Sheet\\DnD Character Sheet\\Services\\GenerateCarouselViewService.cs",
-              "RelativeToolTip": "DnD Character Sheet\\Services\\GenerateCarouselViewService.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAIA5wBgAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-15T18:44:05.891Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "GenerateFeaturesPage.cs",
-              "DocumentMoniker": "C:\\Users\\Porth\\source\\repos\\DnD Character Sheet\\DnD Character Sheet\\Pages\\GenerateFeaturesPage.cs",
-              "RelativeDocumentMoniker": "DnD Character Sheet\\Pages\\GenerateFeaturesPage.cs",
-              "ToolTip": "C:\\Users\\Porth\\source\\repos\\DnD Character Sheet\\DnD Character Sheet\\Pages\\GenerateFeaturesPage.cs",
-              "RelativeToolTip": "DnD Character Sheet\\Pages\\GenerateFeaturesPage.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAAwIcAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-17T08:48:04.79Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 32,
               "Title": "SkillsEditorService.cs",
               "DocumentMoniker": "C:\\Users\\Porth\\source\\repos\\DnD Character Sheet\\DnD Character Sheet\\Services\\EditorServices\\SkillsEditorService.cs",
               "RelativeDocumentMoniker": "DnD Character Sheet\\Services\\EditorServices\\SkillsEditorService.cs",
@@ -552,31 +593,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "GenerateInventoryPage.cs",
-              "DocumentMoniker": "C:\\Users\\Porth\\source\\repos\\DnD Character Sheet\\DnD Character Sheet\\Pages\\GenerateInventoryPage.cs",
-              "RelativeDocumentMoniker": "DnD Character Sheet\\Pages\\GenerateInventoryPage.cs",
-              "ToolTip": "C:\\Users\\Porth\\source\\repos\\DnD Character Sheet\\DnD Character Sheet\\Pages\\GenerateInventoryPage.cs",
-              "RelativeToolTip": "DnD Character Sheet\\Pages\\GenerateInventoryPage.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAIBJwCMAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-19T07:08:48.62Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "GenerateBackstoryPage.cs",
-              "DocumentMoniker": "C:\\Users\\Porth\\source\\repos\\DnD Character Sheet\\DnD Character Sheet\\Pages\\GenerateBackstoryPage.cs",
-              "RelativeDocumentMoniker": "DnD Character Sheet\\Pages\\GenerateBackstoryPage.cs",
-              "ToolTip": "C:\\Users\\Porth\\source\\repos\\DnD Character Sheet\\DnD Character Sheet\\Pages\\GenerateBackstoryPage.cs",
-              "RelativeToolTip": "DnD Character Sheet\\Pages\\GenerateBackstoryPage.cs",
-              "ViewState": "AgIAAIEAAAAAAAAAAAAgwI4AAABGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-15T16:14:44.783Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 34,
               "Title": "InventoryPopup.cs",
               "DocumentMoniker": "C:\\Users\\Porth\\source\\repos\\DnD Character Sheet\\DnD Character Sheet\\PopUps\\InventoryPopup.cs",
               "RelativeDocumentMoniker": "DnD Character Sheet\\PopUps\\InventoryPopup.cs",
@@ -588,7 +605,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 35,
               "Title": "FeaturesPopup.cs",
               "DocumentMoniker": "C:\\Users\\Porth\\source\\repos\\DnD Character Sheet\\DnD Character Sheet\\PopUps\\FeaturesPopup.cs",
               "RelativeDocumentMoniker": "DnD Character Sheet\\PopUps\\FeaturesPopup.cs",
@@ -600,7 +617,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 33,
               "Title": "MainPage.xaml",
               "DocumentMoniker": "C:\\Users\\Porth\\source\\repos\\DnD Character Sheet\\DnD Character Sheet\\MainPage.xaml",
               "RelativeDocumentMoniker": "DnD Character Sheet\\MainPage.xaml",
@@ -612,7 +629,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 36,
               "Title": "AppShell.xaml",
               "DocumentMoniker": "C:\\Users\\Porth\\source\\repos\\DnD Character Sheet\\DnD Character Sheet\\AppShell.xaml",
               "RelativeDocumentMoniker": "DnD Character Sheet\\AppShell.xaml",
@@ -624,7 +641,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 37,
               "Title": "AboutAssets.txt",
               "DocumentMoniker": "C:\\Users\\Porth\\source\\repos\\DnD Character Sheet\\DnD Character Sheet\\Resources\\Raw\\AboutAssets.txt",
               "RelativeDocumentMoniker": "DnD Character Sheet\\Resources\\Raw\\AboutAssets.txt",
@@ -636,7 +653,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 39,
               "Title": "AndroidManifest.xml",
               "DocumentMoniker": "C:\\Users\\Porth\\source\\repos\\DnD Character Sheet\\DnD Character Sheet\\Platforms\\Android\\AndroidManifest.xml",
               "RelativeDocumentMoniker": "DnD Character Sheet\\Platforms\\Android\\AndroidManifest.xml",
@@ -647,7 +664,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 38,
               "Title": "PermissionService.cs",
               "DocumentMoniker": "C:\\Users\\Porth\\source\\repos\\DnD Character Sheet\\DnD Character Sheet\\Services\\PermissionService.cs",
               "RelativeDocumentMoniker": "DnD Character Sheet\\Services\\PermissionService.cs",
@@ -659,7 +676,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 40,
               "Title": "Skills.cs",
               "DocumentMoniker": "C:\\Users\\Porth\\source\\repos\\DnD Character Sheet\\DnD Character Sheet\\Models\\Skills.cs",
               "RelativeDocumentMoniker": "DnD Character Sheet\\Models\\Skills.cs",
@@ -671,7 +688,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 41,
               "Title": "FeatureEditorService.cs",
               "DocumentMoniker": "C:\\Users\\Porth\\source\\repos\\DnD Character Sheet\\DnD Character Sheet\\Services\\EditorServices\\FeatureEditorService.cs",
               "RelativeDocumentMoniker": "DnD Character Sheet\\Services\\EditorServices\\FeatureEditorService.cs",
@@ -683,7 +700,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 42,
               "Title": "MauiProgram.cs",
               "DocumentMoniker": "C:\\Users\\Porth\\source\\repos\\DnD Character Sheet\\DnD Character Sheet\\MauiProgram.cs",
               "RelativeDocumentMoniker": "DnD Character Sheet\\MauiProgram.cs",
@@ -695,7 +712,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 43,
               "Title": "CharacterLoaderService.cs",
               "DocumentMoniker": "C:\\Users\\Porth\\source\\repos\\DnD Character Sheet\\DnD Character Sheet\\Services\\CharacterLoaderService.cs",
               "RelativeDocumentMoniker": "DnD Character Sheet\\Services\\CharacterLoaderService.cs",
@@ -707,7 +724,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 44,
               "Title": "Spell.cs",
               "DocumentMoniker": "C:\\Users\\Porth\\source\\repos\\DnD Character Sheet\\DnD Character Sheet\\Models\\Spell.cs",
               "RelativeDocumentMoniker": "DnD Character Sheet\\Models\\Spell.cs",
