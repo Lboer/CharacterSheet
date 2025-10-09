@@ -11,7 +11,7 @@ public static class GenerateCarouselViewService
     {
         var items = new List<ViewFactoryWrapper>
         {
-            new() { CreateView = () => GenerateHomePage.GenerateHomeGrid(character) },
+            new() { CreateView = () => HomePageBuilder.Build(character) },
             new() { CreateView = () => SkillsPageBuilder.Build(character) },
             new() { CreateView = () => FeaturesPageBuilder.Build(character) },
             new() { CreateView = () => WeaponsPageBuilder.Build(character) },
