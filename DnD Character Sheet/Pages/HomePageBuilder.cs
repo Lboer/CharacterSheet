@@ -89,7 +89,7 @@ public class HomePageBuilder
         var xpLabel = CreateInteractiveLabel("Experience Points", xpText, character.Character.ExperiencePoints ?? 0, newValue =>
         {
             character.Character.ExperiencePoints = newValue;
-            GenerateHomePage.RefreshHomeGrid(character);
+            Refresh(character);
         });
         identityGrid.Add(xpLabel, 2, 1);
 
