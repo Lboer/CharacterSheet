@@ -86,10 +86,12 @@ public static class FeaturesPageBuilder
             var tapGesture = new TapGestureRecognizer();
             tapGesture.Tapped += async (s, e) =>
             {
-                await Application.Current.MainPage.DisplayAlert(features[i].Name, features[i].Description, "OK");
+                // first element is Features header
+                await Application.Current.MainPage.DisplayAlert(features[i - 1].Name, features[i - 1].Description, "OK");
             };
             label.GestureRecognizers.Add(tapGesture);
 
+            // first element is Features header
             grid.Add(label, 0, i + 1);
         }
 

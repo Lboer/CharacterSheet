@@ -136,7 +136,7 @@ public static class SkillsPageBuilder
 
     private static View BuildAbilityBox(string abilityName, int score, Dictionary<string, int> skills)
     {
-        int modifier = (score - 10) / 2;
+        int modifier = (int)Math.Floor((score - 10) / 2.0);
 
         var modifierLabel = new Label
         {
