@@ -76,9 +76,11 @@ public static class FeaturesPageBuilder
         {
             grid.RowDefinitions.Add(new RowDefinition { Height = GridLength.Auto });
 
+            var feature = features[i]; // Capture the current feature
+
             var label = new Label
             {
-                Text = features[i].Name,
+                Text = feature.Name,
                 FontSize = 16,
                 HorizontalOptions = LayoutOptions.Center
             };
@@ -86,8 +88,7 @@ public static class FeaturesPageBuilder
             var tapGesture = new TapGestureRecognizer();
             tapGesture.Tapped += async (s, e) =>
             {
-                // first element is Features header
-                await Application.Current.MainPage.DisplayAlert(features[i - 1].Name, features[i - 1].Description, "OK");
+                await Application.Current.MainPage.DisplayAlert(feature.Name, feature.Description, "OK");
             };
             label.GestureRecognizers.Add(tapGesture);
 
