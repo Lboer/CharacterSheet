@@ -26,9 +26,6 @@ public static class WeaponsPageBuilder
             return;
 
         _weaponsGrid.Children.Clear();
-        _weaponsGrid.RowDefinitions.Clear();
-
-        _weaponsGrid = CreateWeaponsGrid();
         PopulateWeaponsGrid(updatedCharacter);
     }
 
@@ -163,17 +160,14 @@ public static class WeaponsPageBuilder
     {
         var button = new Button
         {
-            Text = "Edit Weapons",
-            BackgroundColor = Colors.LightGray,
-            TextColor = Colors.Black,
-            Margin = new Thickness(0, 10, 0, 10)
+            Text = "Edit Weapons"
         };
 
         button.Clicked += (s, e) =>
         {
             var popup = new WeaponsPopup(character);
             popup.Closed += (_, __) => Refresh(character);
-            Application.Current?.MainPage?.ShowPopup(popup);
+            Application.Current.MainPage?.ShowPopup(popup);
         };
 
         return button;
