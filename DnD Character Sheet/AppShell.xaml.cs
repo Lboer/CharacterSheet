@@ -1,4 +1,5 @@
 ﻿using DnD_Character_Sheet.Models;
+using System.ComponentModel.DataAnnotations;
 using System.Text.Json;
 
 namespace DnD_Character_Sheet;
@@ -37,7 +38,18 @@ public partial class AppShell : Shell
 
                 var character = JsonSerializer.Deserialize<CharacterSheet>(json);
 
-                if (character != null)
+                if (character == null)
+                {
+                    await DisplayAlert("Error", "Character is null.", "OK");
+                    return;
+                }
+                var context = new ValidationContext(character);
+                var results = new List<ValidationResult>();
+
+
+                bool isValid = Validator.TryValidateObject(character, context, results, true);
+
+                if (isValid)
                 {
                     if (Shell.Current.CurrentPage is MainPage mainPage)
                     {
@@ -46,7 +58,12 @@ public partial class AppShell : Shell
                 }
                 else
                 {
-                    await DisplayAlert("Error", "Failed to load character.", "OK");
+                    string errors = string.Empty;
+                    foreach (var error in results)
+                    {
+                        errors += error.ErrorMessage + "\n";
+                    }
+                    await DisplayAlert("Error", errors, "OK");
                 }
             }
         }
