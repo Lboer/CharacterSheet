@@ -45,7 +45,7 @@ public class GenericValueEditPopup : Popup
             }
             else
             {
-                Application.Current.MainPage.DisplayAlert("Invalid Input", "Please enter a valid number.", "OK");
+                Application.Current.Windows[0].Page.DisplayAlertAsync("Invalid Input", "Please enter a valid number.", "OK");
             }
         };
 

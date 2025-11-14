@@ -154,7 +154,7 @@ public static class SpellsPageBuilder
                         Refresh(character);
                     });
 
-                    Application.Current?.MainPage?.ShowPopup(popup);
+                    Application.Current.Windows[0].Page.ShowPopup(popup);
                 };
 
                 slotLabel.GestureRecognizers.Add(slotTap);
@@ -231,7 +231,7 @@ public static class SpellsPageBuilder
             if (!string.IsNullOrEmpty(spell.Area))
                 details += $"\nArea: {spell.Area}";
 
-            await Application.Current?.MainPage?.DisplayAlert(spell.Name, details, "OK");
+            await Application.Current.Windows[0].Page.DisplayAlertAsync(spell.Name, details, "OK");
         };
 
         grid.GestureRecognizers.Add(tapGesture);
@@ -253,10 +253,10 @@ public static class SpellsPageBuilder
             {
                 var endPopup = new SpellcastingEndPopup(character);
                 endPopup.Closed += (_, __) => Refresh(character);
-                Application.Current?.MainPage?.ShowPopup(endPopup);
+                Application.Current.Windows[0].Page.ShowPopup(endPopup);
             };
 
-            Application.Current?.MainPage?.ShowPopup(startPopup);
+            Application.Current.Windows[0].Page.ShowPopup(startPopup);
         };
 
         return button;

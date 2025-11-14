@@ -88,7 +88,7 @@ public static class FeaturesPageBuilder
             var tapGesture = new TapGestureRecognizer();
             tapGesture.Tapped += async (s, e) =>
             {
-                await Application.Current.MainPage.DisplayAlert(feature.Name, feature.Description, "OK");
+                await Application.Current.Windows[0].Page.DisplayAlertAsync(feature.Name, feature.Description, "OK");
             };
             label.GestureRecognizers.Add(tapGesture);
 
@@ -179,10 +179,10 @@ public static class FeaturesPageBuilder
             {
                 var languagesPopup = new LanguagesPopup(character);
                 languagesPopup.Closed += (_, __) => Refresh(character);
-                Application.Current?.MainPage?.ShowPopup(languagesPopup);
+                Application.Current.Windows[0].Page.ShowPopup(languagesPopup);
             };
 
-            Application.Current?.MainPage?.ShowPopup(featuresPopup);
+            Application.Current.Windows[0].Page.ShowPopup(featuresPopup);
         };
 
         return button;

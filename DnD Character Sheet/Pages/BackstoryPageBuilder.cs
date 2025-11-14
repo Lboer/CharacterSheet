@@ -1,6 +1,7 @@
 ﻿using CommunityToolkit.Maui.Views;
 using DnD_Character_Sheet.Models;
 using DnD_Character_Sheet.PopUps;
+using Microsoft.Maui.Controls.Shapes;
 
 namespace DnD_Character_Sheet.Pages;
 
@@ -111,7 +112,7 @@ public static class BackstoryPageBuilder
         return grid;
     }
 
-    private static Frame BuildFramedText(string title, List<string> items)
+    private static Border BuildFramedText(string title, List<string> items)
     {
         var grid = new Grid
         {
@@ -136,13 +137,14 @@ public static class BackstoryPageBuilder
             HorizontalTextAlignment = TextAlignment.Center
         }, 0, 1);
 
-        return new Frame
+        return new Border
         {
             Content = grid,
-            BorderColor = Colors.Black,
-            CornerRadius = 8,
-            Padding = new Thickness(5)
-        };
+            Stroke = Colors.Black,
+            StrokeThickness = 2,
+            Padding = new Thickness(5),
+            StrokeShape = new RoundRectangle { CornerRadius = 8 }
+		};
     }
 
     private static Button BuildEditButton(CharacterSheet character)
@@ -156,7 +158,7 @@ public static class BackstoryPageBuilder
         {
             var popup = new BackstoryPopup(character);
             popup.Closed += (_, __) => Refresh(character);
-            Application.Current?.MainPage?.ShowPopup(popup);
+            Application.Current.Windows[0].Page.ShowPopup(popup);
         };
 
         return button;

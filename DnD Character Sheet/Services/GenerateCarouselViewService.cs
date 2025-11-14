@@ -35,7 +35,7 @@ public static class GenerateCarouselViewService
             IsSwipeEnabled = true,
             HorizontalScrollBarVisibility = ScrollBarVisibility.Never,
             VerticalScrollBarVisibility = ScrollBarVisibility.Never,
-            HeightRequest = Application.Current.MainPage.Height, // Optional if layout handles it
+            HeightRequest = Application.Current.Windows[0].Page.Height, // Optional if layout handles it
             ItemTemplate = new DataTemplate(() =>
             {
                 var contentView = new ContentView();

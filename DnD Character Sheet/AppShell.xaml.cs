@@ -40,7 +40,7 @@ public partial class AppShell : Shell
 
                 if (character == null)
                 {
-                    await DisplayAlert("Error", "Character is null.", "OK");
+                    await DisplayAlertAsync("Error", "Character is null.", "OK");
                     return;
                 }
                 var context = new ValidationContext(character);
@@ -63,13 +63,13 @@ public partial class AppShell : Shell
                     {
                         errors += error.ErrorMessage + "\n";
                     }
-                    await DisplayAlert("Error", errors, "OK");
+                    await DisplayAlertAsync("Error", errors, "OK");
                 }
             }
         }
         catch (Exception ex)
         {
-            await DisplayAlert("Error", $"File selection failed: {ex.Message}", "OK");
+            await DisplayAlertAsync("Error", $"File selection failed: {ex.Message}", "OK");
         }
     }
 
@@ -80,7 +80,7 @@ public partial class AppShell : Shell
         {
             if (mainPage.CurrentCharacter != null)
             {
-                mainPage.SaveCharacterToDownloadsAsync();
+                await mainPage.SaveCharacterToDownloadsAsync();
             }
         }
     }
@@ -104,12 +104,12 @@ public partial class AppShell : Shell
             }
             else
             {
-                await DisplayAlert("Error", "Failed to load blank character.", "OK");
+                await DisplayAlertAsync("Error", "Failed to load blank character.", "OK");
             }
         }
         catch (Exception ex)
         {
-            await DisplayAlert("Error", $"Could not load blank character: {ex.Message}", "OK");
+            await DisplayAlertAsync("Error", $"Could not load blank character: {ex.Message}", "OK");
         }
     }
 }

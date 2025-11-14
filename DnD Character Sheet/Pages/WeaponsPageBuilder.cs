@@ -144,10 +144,10 @@ public static class WeaponsPageBuilder
             var tapGesture = new TapGestureRecognizer();
             tapGesture.Tapped += async (s, e) =>
             {
-                if (Application.Current?.MainPage is not null)
+                if (Application.Current.Windows[0].Page is not null)
                 {
                     var details = $"{weapon.DamageType} weapon.\nRange: {weapon.Range}\nProperties: {string.Join(", ", weapon.Properties)}";
-                    await Application.Current.MainPage.DisplayAlert(weapon.Name, details, "OK");
+                    await Application.Current.Windows[0].Page.DisplayAlertAsync(weapon.Name, details, "OK");
                 }
             };
             rowGrid.GestureRecognizers.Add(tapGesture);
@@ -167,7 +167,7 @@ public static class WeaponsPageBuilder
         {
             var popup = new WeaponsPopup(character);
             popup.Closed += (_, __) => Refresh(character);
-            Application.Current.MainPage?.ShowPopup(popup);
+            Application.Current.Windows[0].Page.ShowPopup(popup);
         };
 
         return button;

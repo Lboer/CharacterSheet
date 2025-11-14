@@ -1,6 +1,7 @@
 ﻿using CommunityToolkit.Maui.Views;
 using DnD_Character_Sheet.Models;
 using DnD_Character_Sheet.PopUps;
+using Microsoft.Maui.Controls.Shapes;
 
 namespace DnD_Character_Sheet.Pages;
 
@@ -115,20 +116,20 @@ public class HomePageBuilder
 
         // HP (interactive)
         var hpText = $"{character.Combat.HitPoints.Current}/{character.Combat.HitPoints.Maximum}";
-        var hpFrame = CreateInteractiveStatFrame("HP", hpText, "Current HP", character.Combat.HitPoints.Current.ToString(), newValue =>
+        var hpBorder = CreateInteractiveStatFrame("HP", hpText, "Current HP", character.Combat.HitPoints.Current.ToString(), newValue =>
         {
             character.Combat.HitPoints.Current = int.Parse(newValue);
             Refresh(character);
         });
-        statsGrid.Add(hpFrame, 1, 0);
+        statsGrid.Add(hpBorder, 1, 0);
 
         // Temp HP (interactive)
-        var tempHpFrame = CreateInteractiveStatFrame("Temp HP", character.Combat.HitPoints.Temporary.ToString(), "Temporary HP", character.Combat.HitPoints.Temporary.ToString(), newValue =>
+        var tempHpBorder = CreateInteractiveStatFrame("Temp HP", character.Combat.HitPoints.Temporary.ToString(), "Temporary HP", character.Combat.HitPoints.Temporary.ToString(), newValue =>
         {
             character.Combat.HitPoints.Temporary = int.Parse(newValue);
             Refresh(character);
         });
-        statsGrid.Add(tempHpFrame, 2, 0);
+        statsGrid.Add(tempHpBorder, 2, 0);
 
         // Initiative
         statsGrid.Add(CreateStatFrame("Initiative", character.Combat.Initiative.ToString()), 0, 1);
@@ -137,12 +138,12 @@ public class HomePageBuilder
         statsGrid.Add(CreateStatFrame("Speed", character.Combat.Speed.ToString()), 1, 1);
 
         // Hit Dice (interactive)
-        var hitDiceFrame = CreateInteractiveStatFrame("Hit Dice", character.Combat.HitPoints.HitDice, "Hit Dice", character.Combat.HitPoints.HitDice, newValue =>
+        var hitDiceBorder = CreateInteractiveStatFrame("Hit Dice", character.Combat.HitPoints.HitDice, "Hit Dice", character.Combat.HitPoints.HitDice, newValue =>
         {
             character.Combat.HitPoints.HitDice = newValue;
             Refresh(character);
         });
-        statsGrid.Add(hitDiceFrame, 2, 1);
+        statsGrid.Add(hitDiceBorder, 2, 1);
 
         return statsGrid;
     }
@@ -212,16 +213,16 @@ public class HomePageBuilder
                             Refresh(characterSheet);
                         };
 
-                        Application.Current.MainPage.ShowPopup(savingThrowsPopup);
+                        Application.Current.Windows[0].Page.ShowPopup(savingThrowsPopup);
                     };
 
-                    Application.Current.MainPage.ShowPopup(abilityScoresPopup);
+                    Application.Current.Windows[0].Page.ShowPopup(abilityScoresPopup);
                 };
 
-                Application.Current.MainPage.ShowPopup(characterStatsPopup);
+                Application.Current.Windows[0].Page.ShowPopup(characterStatsPopup);
             };
 
-            Application.Current.MainPage.ShowPopup(characterInfoPopup);
+            Application.Current.Windows[0].Page.ShowPopup(characterInfoPopup);
         };
 
         return editButton;
@@ -260,14 +261,14 @@ public class HomePageBuilder
         tapGesture.Tapped += (_, __) =>
         {
             var popup = new GenericValueEditPopup($"{title}: ", currentValue, onValueChanged);
-            Application.Current.MainPage.ShowPopup(popup);
+            Application.Current.Windows[0].Page.ShowPopup(popup);
         };
 
         label.GestureRecognizers.Add(tapGesture);
         return label;
     }
 
-    private static Frame BuildAbilityFrame(string abilityLabel, int abilityScore, int savingThrowBonus)
+    private static Border BuildAbilityFrame(string abilityLabel, int abilityScore, int savingThrowBonus)
     {
         int abilityModifier = (int)Math.Floor((abilityScore - 10) / 2.0);
 
@@ -339,31 +340,33 @@ public class HomePageBuilder
             HorizontalTextAlignment = TextAlignment.Center
         }, 2, 2);
 
-        return new Frame
+        return new Border
         {
             Content = abilityGrid,
-            BorderColor = Colors.Black,
-            CornerRadius = 8,
-            Padding = new Thickness(5)
+            Stroke = Colors.Black,
+            StrokeThickness = 2,
+            Padding = new Thickness(5),
+            StrokeShape = new RoundRectangle { CornerRadius = 8 }
         };
     }
 
-    private static Frame CreateStatFrame(string label, string value)
+    private static Border CreateStatFrame(string label, string value)
     {
-        return new Frame
+        return new Border
         {
             Content = new Label
             {
                 Text = $"{label}\n{value}",
                 HorizontalTextAlignment = TextAlignment.Center
             },
-            BorderColor = Colors.Black,
-            CornerRadius = 8,
-            Padding = new Thickness(5)
+            Stroke = Colors.Black,
+            StrokeThickness = 2,
+            Padding = new Thickness(5),
+            StrokeShape = new RoundRectangle { CornerRadius = 8 }
         };
     }
 
-    private static Frame CreateInteractiveStatFrame(string label, string value, string popupTitle, string currentValue, Action<string> onValueChanged)
+    private static Border CreateInteractiveStatFrame(string label, string value, string popupTitle, string currentValue, Action<string> onValueChanged)
     {
         var statLabel = new Label
         {
@@ -376,17 +379,18 @@ public class HomePageBuilder
         tapGesture.Tapped += (_, __) =>
         {
             var popup = new GenericValueEditPopup(popupTitle, currentValue, onValueChanged);
-            Application.Current.MainPage.ShowPopup(popup);
+            Application.Current.Windows[0].Page.ShowPopup(popup);
         };
 
         statLabel.GestureRecognizers.Add(tapGesture);
 
-        return new Frame
+        return new Border
         {
             Content = statLabel,
-            BorderColor = Colors.Black,
-            CornerRadius = 8,
-            Padding = new Thickness(5)
+            Stroke = Colors.Black,
+            StrokeThickness = 2,
+            Padding = new Thickness(5),
+            StrokeShape = new RoundRectangle { CornerRadius = 8 }
         };
     }
 }

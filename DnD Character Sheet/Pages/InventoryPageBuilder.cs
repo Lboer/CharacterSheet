@@ -96,7 +96,7 @@ public static class InventoryPageBuilder
         {
             var popup = new InventoryPopup(character);
             popup.Closed += (_, __) => Refresh(character);
-            Application.Current.MainPage?.ShowPopup(popup);
+            Application.Current.Windows[0].Page.ShowPopup(popup);
         };
 
         return button;

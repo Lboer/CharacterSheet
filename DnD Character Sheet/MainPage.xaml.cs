@@ -37,15 +37,15 @@ public partial class MainPage : ContentPage
         var permissionService = new PermissionService();
 
         // guard clause
-        if (Microsoft.Maui.Controls.Application.Current?.MainPage is not null)
+        if (Microsoft.Maui.Controls.Application.Current?.Windows[0].Page is not null)
         {
             if (!await permissionService.EnsureStoragePermissionAsync())
             {
-                await Microsoft.Maui.Controls.Application.Current.MainPage.DisplayAlert("Permission Denied", "Storage permission is required to save the file.", "OK");
+                await Microsoft.Maui.Controls.Application.Current.Windows[0].Page.DisplayAlertAsync("Permission Denied", "Storage permission is required to save the file.", "OK");
                 return;
             }
 
-            string fileName = await Microsoft.Maui.Controls.Application.Current.MainPage.DisplayPromptAsync(
+            string? fileName = await Microsoft.Maui.Controls.Application.Current.Windows[0].Page.DisplayPromptAsync(
                 "Save Character",
                 "Enter a name for your character file:",
                 placeholder: "e.g. Elowen.json"
@@ -61,18 +61,21 @@ public partial class MainPage : ContentPage
             {
                 WriteIndented = true
             });
-
+            var filePath = string.Empty;
 #if ANDROID
     // Get public Downloads directory
     var downloadsDir = Android.OS.Environment.GetExternalStoragePublicDirectory(Android.OS.Environment.DirectoryDownloads);
-    string filePath = Path.Combine(downloadsDir.AbsolutePath, fileName);
+    if (downloadsDir != null)
+    {
+        filePath = Path.Combine(downloadsDir.AbsolutePath, fileName);
+    }
 #else
-            string filePath = Path.Combine(FileSystem.AppDataDirectory, fileName);
+    filePath = Path.Combine(FileSystem.AppDataDirectory, fileName);
 #endif
 
-            File.WriteAllText(filePath, json);
+                File.WriteAllText(filePath, json);
 
-            await Microsoft.Maui.Controls.Application.Current.MainPage.DisplayAlert("Saved", $"Character saved to:\n{filePath}", "OK");
+            await Microsoft.Maui.Controls.Application.Current.Windows[0].Page.DisplayAlertAsync("Saved", $"Character saved to:\n{filePath}", "OK");
         }
 
         else

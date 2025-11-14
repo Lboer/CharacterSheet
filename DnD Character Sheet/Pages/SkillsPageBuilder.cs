@@ -228,10 +228,10 @@ public static class SkillsPageBuilder
             {
                 var endPopup = new SkillsEndPopup(character);
                 endPopup.Closed += (_, __) => Refresh(character);
-                Application.Current?.MainPage?.ShowPopup(endPopup);
+                Application.Current.Windows[0].Page.ShowPopup(endPopup);
             };
 
-            Application.Current?.MainPage?.ShowPopup(startPopup);
+            Application.Current.Windows[0].Page.ShowPopup(startPopup);
         };
 
         return button;
